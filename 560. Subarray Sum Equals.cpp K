@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     int subarraySum(vector<int>& nums, int k) {
         unordered_map<int,int>prefixcount;
         prefixcount[0] = 1;
